@@ -11,8 +11,8 @@ const Hero = () => {
         <div id='hero'>
             <section className="home" id="home">
                 <div className="home-content" data-aos="fade-right" data-aos-duration="1500">
-                    <h2>Hi, It's <span>Yusra</span></h2>
-                    <h3>and I'm a passionate</h3>
+                    <h2>Hi, It is <span>Yusra</span></h2>
+                    <h3>and I am a passionate</h3>
                     <div className="green"> <span id="element"></span></div>
 
                     <div className="social-icons">
