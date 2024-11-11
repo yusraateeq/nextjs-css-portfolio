@@ -1,0 +1,241 @@
+.about {
+    background: rgb(6, 29, 7);
+    background: linear-gradient(90deg, rgba(6, 29, 7, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    margin-top: 80px;
+}
+
+.about h2 {
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;
+    text-shadow: var(--main-color) 0 0 12px;
+    text-shadow: var(--main-color) 0 0 24px;
+    text-shadow: var(--main-color) 0 0 36px;
+}
+
+.about-1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.about-img img {
+    border-radius: 50%;
+    width: 65vw;
+    height: 26vw;
+    box-shadow: 0 0 25px var(--main-color);
+    transition: 0.4s ease-in-out;
+}
+
+.about-img img:hover {
+    box-shadow: 0 0 25px var(--main-color),
+        0 0 50px var(--main-color),
+        0 0 60px var(--main-color);
+    transform: scale(1.1)translateY(-3px);
+
+}
+
+.about-content h2 {
+    font-size: 7rem;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+}
+
+
+.about-content p {
+    font-size: 2rem;
+    font-family: "Lumanosimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 33px;
+    margin-top: 20px;
+    word-spacing: 3.5px;
+}
+
+hr {
+    border: 0;
+    height: 1.2px;
+    margin: 20vh 0px 0px 0px;
+    border: 1px solid var(--main-color);
+    box-shadow: var(--main-color) 0 0 12px;
+    box-shadow: var(--main-color) 0 0 24px;
+    box-shadow: var(--main-color) 0 0 36px;
+}
+
+.about .experience h2 {
+    font-size: 6.5rem;
+    margin-top: 30vh;
+    font-family: "Lobster", sans-serif;
+
+}
+
+
+.about .experience p {
+    font-size: 2.3rem;
+    font-family: "Lumanosimo", cursive;
+    line-height: 33px;
+    margin-top: 20px;
+    word-spacing: 3.5px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.box li {
+    list-style: none;
+    text-align: center;
+    margin-right: 25vh;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.text {
+    font-family: cursive;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.num {
+    font-size: 70px;
+    text-align: center;
+}
+
+.num span {
+    color: var(--main-color);
+}
+
+.about .skills h2 {
+    font-size: 8rem;
+    margin-top: 30vh;
+    margin-right: 10vh;
+    text-align: right;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.skills-img {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-img .img-1 {
+    padding: 30px;
+}
+
+.skills-img img {
+    width: 230px;
+    margin: 10px 35px 15px 35px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: var(--main-color) 0 0 12px;
+    box-shadow: var(--main-color) 0 0 24px;
+    box-shadow: var(--main-color) 0 0 36px;
+    transition: 0.4s ease-in-out;
+}
+
+.skills-img img:hover {
+    box-shadow: 0 0 25px var(--main-color),
+        0 0 50px var(--main-color),
+        0 0 60px var(--main-color);
+    transform: scale(1.1)translateY(-3px);
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-color);
+}
+
+
+@media(max-width:800px) {
+    .about-1 {
+        flex-wrap: wrap;
+    }
+
+    .about-img img {
+        height: 60vw;
+        width: 60vw;
+    }
+
+    .box li {
+        margin-right: 8vh;
+    }
+
+    .num {
+        font-size: 40px;
+    }
+
+    .skills-img {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:600px) {
+    .about .experience h2 {
+        font-size: 5rem;
+    }
+
+    .about .experience p {
+        font-size: 2rem;
+    }
+
+    .skills-img img {
+        width: 500px;
+    }
+
+    .skills-img img {
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .about .skills h2 {
+        font-size: 6rem;
+    margin-right: 2vh;
+
+    }
+}
+
+
+@media(max-width:380px) {
+    .about-content h2 {
+        font-size: 6rem;
+    }
+
+    .about-content p {
+        font-size: 1.5rem;
+    }
+
+    .about .experience h2 {
+        font-size: 4rem;
+    }
+
+    .about .experience p {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        flex-wrap: wrap;
+    }
+
+    .box li {
+        margin-left: 10vh;
+        margin-bottom: 30px;
+    }
+
+}
