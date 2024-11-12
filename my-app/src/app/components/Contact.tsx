@@ -26,8 +26,8 @@ const Contact = () => {
               />
               <textarea
                 name="message"
-                rows="5"
-                cols="70"
+                rows={5}  // Numeric value for the number of rows
+                cols={70} // Numeric value for the number of columns
                 placeholder="Message me..."
               ></textarea>
 
